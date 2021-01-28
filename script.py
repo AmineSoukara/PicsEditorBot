@@ -21,6 +21,8 @@ For more click help....</b>"""
 
 📚 <b>Framework :</b> <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 
+📡 <b>Hosted on :</b> <a href='t.me/kintohubSupport'>KintoHub</a>
+
 👨‍💻 <b>Developer :</b> <a href='t.me/Damienrobot'>Amine Soukara</a>
 
 👥 <b>Support Group :</b> <a href='t.me/damienhelp'>Damien Help</a>

@@ -34,7 +34,7 @@
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AmineSoukara/PicsEditorBot)
+[![Deploy](https://raw.githubusercontent.com/gilbarbara/logos/master/logos/heroku.svg)](https://heroku.com/deploy?template=https://github.com/AmineSoukara/PicsEditorBot)
 
 ### Deploy in your vps
 ```sh

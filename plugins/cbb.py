@@ -106,12 +106,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("HELP", callback_data="help_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("🆘️ HELP", callback_data="help_data"),
+                    InlineKeyboardButton("♾ ABOUT", callback_data="about_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "💬 CHANNEL", url="t.me/DamienSoukara"
                     )
                 ],
             ]
@@ -126,12 +126,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="start_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("🔙 BACK", callback_data="start_data"),
+                    InlineKeyboardButton("♾ ABOUT", callback_data="about_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "💬 CHANNEL", url="t.me/DamienSoukara"
                     )
                 ],
             ]
@@ -143,12 +143,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("START", callback_data="start_data"),
+                    InlineKeyboardButton("🔙 BACK", callback_data="help_data"),
+                    InlineKeyboardButton("⭐ START", callback_data="start_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "💬 CHANNEL", url="t.me/DamienSoukara"
                     )
                 ],
             ]
@@ -241,12 +241,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🔴 RED 🔴", callback_data="red"),
-                        InlineKeyboardButton(text="🟢 Green 🟢", callback_data="green"),
+                        InlineKeyboardButton(text="🔴 RED", callback_data="red"),
+                        InlineKeyboardButton(text="🟢 Green", callback_data="green"),
                     ],
                     [
-                        InlineKeyboardButton(text="⚫ Black ⚫", callback_data="black"),
-                        InlineKeyboardButton(text="🔵 Blue 🔵", callback_data="blue"),
+                        InlineKeyboardButton(text="⚫ Black", callback_data="black"),
+                        InlineKeyboardButton(text="🔵 Blue", callback_data="blue"),
                     ],
                 ]
             ),

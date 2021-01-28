@@ -1,4 +1,3 @@
-# By @TroJanzHEX
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters
 from script import script  # pylint:disable=import-error
@@ -14,7 +13,7 @@ async def start(client: Client, message: Message):
                 [
                     [
                         InlineKeyboardButton("🆘️ HELP", callback_data="help_data"),
-                        InlineKeyboardButton("♾ ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("©️ ABOUT", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
@@ -40,7 +39,7 @@ async def help(client, message):
                 [
                     [
                         InlineKeyboardButton("🔙 BACK", callback_data="start_data"),
-                        InlineKeyboardButton("♾ ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("©️ ABOUT", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
@@ -66,7 +65,7 @@ async def about(client, message):
                 [
                     [
                         InlineKeyboardButton("🔙 BACK", callback_data="help_data"),
-                        InlineKeyboardButton("⭐ START", callback_data="start_data"),
+                        InlineKeyboardButton("🏠 HOME", callback_data="start_data"),
                     ],
                     [
                         InlineKeyboardButton(

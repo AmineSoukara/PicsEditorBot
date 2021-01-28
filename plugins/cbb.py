@@ -1,4 +1,3 @@
-# By @TroJanzHEX
 from image.edit_1 import (  # pylint:disable=import-error
     bright,
     mix,
@@ -107,7 +106,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton("🆘️ HELP", callback_data="help_data"),
-                    InlineKeyboardButton("♾ ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("©️ ABOUT", callback_data="about_data"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -127,7 +126,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton("🔙 BACK", callback_data="start_data"),
-                    InlineKeyboardButton("♾ ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("©️ ABOUT", callback_data="about_data"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -144,7 +143,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton("🔙 BACK", callback_data="help_data"),
-                    InlineKeyboardButton("⭐ START", callback_data="start_data"),
+                    InlineKeyboardButton("🏠 HOME", callback_data="start_data"),
                 ],
                 [
                     InlineKeyboardButton(

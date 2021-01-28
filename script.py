@@ -2,23 +2,28 @@ class script(object):
 
     START_MSG = """ <b>Hi {}
 
-I'm a Image Editor Bot which Supports various modes
+I'm A Image Editor Bot Which Supports Various Modes
 
 For more click help....</b>"""
     HELP_MSG = """Hi, Follow These Steps..
 
-<code>● Send me any Image to Edit..</code>
+<code>1️⃣ Send Me Any Image To Edit..</code>
 
-<code>● Select the Corresponding mode that you need</code>
+<code>2️⃣ Select The Corresponding Mode That You Need</code>
 
-<code>● Your Edited Image will be Uploaded </code>
+<code>3️⃣ Your Edited Image Will Be Uploaded </code>
 
 
 © @DamienSoukara"""
-    ABOUT_MSG = """● <b>My Name : Image Editor</b>
+    ABOUT_MSG = """🤖 <b>My Name :</b> :</b> <a href='t.me/PicsEditorBot'>Pics Editor</a>
 
-● <b>Language :</b> <code>Python3</code>
+📝 <b>Language :</b> <a href='https://www.python.org/'>Python 3</a>
 
-● <b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>
+📚 <b>Framework :</b> <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 
-● <b>Creator :</b> 👉 <a href='t.me/Damienrobot'>DAMIEN</a>"""
+👨‍💻 <b>Developer :</b> <a href='t.me/Damienrobot'>Amine Soukara</a>
+
+👥 <b>Support Group :</b> <a href='t.me/damienhelp'>Damien Help</a>
+
+📢 <b>Updates Channel :</b> <a href='t.me/DamienSoukara'>Damien Soukara</a>
+"""
